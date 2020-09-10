@@ -43,13 +43,9 @@ function setup() {
   touch "$DOTFILES/home/.gitconfig.secrets"
   touch "$DOTFILES/home/.shell/secrets.sh"
   touch "$DOTFILES/home/.shell-after/secrets.sh"
-  # In case there is no .zshrc yet:
-  touch ~/.zshrc
-
-  source ~/.zshrc
 
   # Symlink the Mackup config file to the home directory
-  ln -s ~/dotfiles/home/.mackup.cfg ~/
+  # ln -s ~/dotfiles/home/.mackup.cfg ~/
 
   # Install nvm if not already there
   if [[ ! -d ~/.nvm ]]; then
@@ -64,20 +60,15 @@ function setup() {
   # Install latest LTS node.js
   nvm install --lts
 
-  # Install a "recent" Ruby version (as of 2017-12-01) and use it
-  # (rbenv was installed from homebrew with the brew bundle command above)
-  rbenv install 2.4.2
-  rbenv global 2.4.2
-
-  echo "\nDo you want to install Rust via rustup?  (y/N)"
-  read CONFIRM_RUST
-  if [ "$CONFIRM_RUST" = "y" ]; then
-    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-
-  else
-    echo "Okay, skipping Rust. You can install it later with this command:"
-    echo "$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh"
-  fi
+  # echo "\nDo you want to install Rust via rustup?  (y/N)"
+  # read CONFIRM_RUST
+  # if [ "$CONFIRM_RUST" = "y" ]; then
+  #   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+  # 
+  # else
+  #   echo "Okay, skipping Rust. You can install it later with this command:"
+  #   echo "$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh"
+  # fi
 
   # Create default directory and set permissions for MongoDB
   # sudo mkdir -p /data/db

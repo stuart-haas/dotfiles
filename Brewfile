@@ -65,7 +65,6 @@ brew "php-cs-fixer"
 brew "pipenv", link: false
 brew "pkg-config"
 brew "postgresql", restart_service: true
-brew "python@2"
 brew "ranger"
 brew "rbenv"
 brew "rclone"
@@ -75,6 +74,7 @@ brew "rethinkdb", restart_service: true
 brew "ripgrep"
 brew "rustc-completion"
 brew "shfmt"
+brew "starship"
 brew "tree"
 brew "vim"
 brew "watchman"
@@ -91,93 +91,94 @@ brew "webhookrelay/tap/relay"
 cask "1password"
 cask "adobe-creative-cloud"
 cask "adoptopenjdk"
-cask "alfred"
+#  cask "alfred"
 cask "android-studio"
-cask "appzapper"
-cask "atom"
-cask "basictex"
-cask "betterzip"
+# cask "appzapper"
+# cask "atom"
+# cask "basictex"
+# cask "betterzip"
 cask "brave-browser"
-cask "crunch"
+# cask "crunch"
 cask "dash"
 cask "discord"
 cask "docker"
 cask "dropbox"
-cask "dvdstyler"
-cask "edex-ui"
-cask "expo-xde"
+# cask "dvdstyler"
+# cask "edex-ui"
+# cask "expo-xde"
 cask "firefox"
-cask "flip4mac"
-cask "font-iosevka"
+# cask "flip4mac"
+# cask "font-iosevka"
 cask "fontgoggles"
-cask "fontplop"
+# cask "fontplop"
 cask "google-chrome"
-cask "gpg-suite"
+# cask "gpg-suite"
 cask "graphql-playground"
-cask "handbrake"
+# cask "handbrake"
+cask "hyper"
 cask "imagealpha"
 cask "imageoptim"
 cask "insomnia"
 cask "integrity"
-cask "iterm2"
+# cask "iterm2"
 cask "keybase"
-cask "keycastr"
+# cask "keycastr"
 cask "kitematic"
 cask "knockknock"
-cask "livereload"
+# cask "livereload"
 cask "mark-text"
 cask "mongodb-compass"
 cask "namechanger"
 cask "opera"
-cask "overdrive-media-console"
+#cask "overdrive-media-console"
+cask "postman"
 cask "private-internet-access"
-cask "psequel"
+# cask "psequel"
 cask "quicklook-json"
 cask "responsively"
-cask "riot"
 cask "robo-3t"
-cask "screens"
+# cask "screens"
 cask "sequel-pro"
 cask "signal"
 cask "sketch"
-cask "skype"
+#cask "skype"
 cask "slack"
-cask "slate"
-cask "sonos"
+# cask "slate"
+# cask "sonos"
 cask "sourcetree"
 cask "ssh-tunnel-manager"
 cask "suspicious-package"
-cask "synologyassistant"
-cask "textmate"
-cask "textual"
+# cask "synologyassistant"
+# cask "textmate"
+# cask "textual"
 cask "the-unarchiver"
 cask "transmit"
-cask "ttscoff-mmd-quicklook"
+# cask "ttscoff-mmd-quicklook"
 cask "vagrant"
 cask "virtualbox"
 cask "visual-studio-code"
-cask "vlc"
-cask "zeplin"
-cask "zettlr"
-mas "Affinity Designer", id: 824171161
-mas "Audiobook Builder", id: 1437681957
-mas "AudioBookBinder", id: 413969927
-mas "Citationsy", id: 1410212159
-mas "Encrypto", id: 935235287
-mas "Friendly Streaming", id: 553245401
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "LUCiD Exposure", id: 1133117123
-mas "Mimeo Photos", id: 1282504627
-mas "Motif", id: 1404636482
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "RBdigital", id: 491365225
-mas "Reeder", id: 880001334
-mas "SiteSucker", id: 442168834
-mas "Skitch", id: 425955336
-mas "Soulver", id: 413965349
-mas "Stave'n'Tabs", id: 1107712488
-mas "Svgsus", id: 1106867065
-mas "Xcode", id: 497799835
+# cask "vlc"
+# cask "zeplin"
+# cask "zettlr"
+# mas "Affinity Designer", id: 824171161
+# mas "Audiobook Builder", id: 1437681957
+# mas "AudioBookBinder", id: 413969927
+# mas "Citationsy", id: 1410212159
+# mas "Encrypto", id: 935235287
+# mas "Friendly Streaming", id: 553245401
+# mas "GarageBand", id: 682658836
+# mas "iMovie", id: 408981434
+# mas "Keynote", id: 409183694
+# mas "LUCiD Exposure", id: 1133117123
+# mas "Mimeo Photos", id: 1282504627
+# mas "Motif", id: 1404636482
+# mas "Numbers", id: 409203825
+# mas "Pages", id: 409201541
+# mas "RBdigital", id: 491365225
+# mas "Reeder", id: 880001334
+# mas "SiteSucker", id: 442168834
+# mas "Skitch", id: 425955336
+# mas "Soulver", id: 413965349
+# mas "Stave'n'Tabs", id: 1107712488
+# mas "Svgsus", id: 1106867065
+# mas "Xcode", id: 497799835
